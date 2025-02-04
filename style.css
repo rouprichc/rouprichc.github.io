@@ -1,0 +1,84 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#all-contents {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(34, 33, 32);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 25;
+    padding: 5;
+    display: flex;
+    color: white;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(29, 28, 28);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 520px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+    color: white;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
+    color: white;
+}
+
+p {
+    color: white;
+}
