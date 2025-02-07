@@ -41,6 +41,7 @@ $(function () {
     p(800, 400, 100, 5, "orange");
     p(1100, 300, 100, 5, "orange");
     p(900, 175, 100, 5, "orange");
+    p(700, 175, 100, 5, "green");
 
     // TODO 3 - Create Collectables
 
