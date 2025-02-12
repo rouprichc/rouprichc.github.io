@@ -46,9 +46,9 @@ $(function () {
     // TODO 3 - Create Collectables
 
     o=createCollectable
-    o("database", 800, 350);
-    o("database", 1100, 250);
-    o("database", 900, 125);
+    o("key", 800, 350);
+    o("key", 1100, 250);
+    o("skull", 900, 125);
 
     
     // TODO 4 - Create Cannons
