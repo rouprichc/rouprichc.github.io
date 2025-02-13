@@ -34,7 +34,7 @@ $(function () {
 
     p=createPlatform
 
-
+// i decided to completly rework my game 
    
     p(100, 550, 1400, 10, "red");
     p(0, 650, 100, 10, "red");
@@ -43,7 +43,7 @@ $(function () {
     p(100, 160, 1400, 10, "yellow");
     p(0, 256, 100, 10, "yellow");
     //p(100, 30, 1400, 10, "green");
-    p(1200, y1, 10, 70, "yellow");
+    p(1200, 100, 10, 70, "yellow");
 
 
     // TODO 3 - Create Collectables
