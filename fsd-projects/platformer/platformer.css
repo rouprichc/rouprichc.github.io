@@ -3,7 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-color: rgb(39, 34, 34);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSznUY1NqSWt448tY7HgdOThyZQdnO4bEyv7WToWpeE76XwOR8:https://wallpapers.com/images/featured/video-game-zoom-background-13gurqi9gfhmu3s7.jpg&s");
   margin: 20px;
 }
 
