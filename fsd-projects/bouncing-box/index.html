@@ -44,7 +44,7 @@
 			var box = jQuery('.box');	// reference to the HTML .box element
 			var board = jQuery('.board');	// reference to the HTML .board element
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
-
+			var positionX = (0);
 			// Every 50 milliseconds, call the update Function (see below)
 			setInterval(update, 50);
 
@@ -75,8 +75,12 @@
 			turn it around! 
 			*/
 			function update() {
+				positionX = positionX + 10;
+				var points = 0;
+				moveBoxTo(positionX);
+				changeBoxText(points);
 
-
+				
 			};
 
 			/* 
@@ -85,7 +89,8 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-
+				positonX = 0;
+				changeBoxText(0);
 
 			};
 
